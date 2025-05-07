@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+.nav {
+    background-color: #dddc;
+}
+
+.nav_img {
+
+}
+
+.nav_ul {
+    list-style: none;
+}
+
+.nav_list {
+    margin: 10px;
+}
+
+.nav_link {
+    color: #333f;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.portada {
+    width: 100%;
+}
+
+.tarjeta {
+    width: 400px;
+    height: 500px;
+}
+
+.tarjeta .tarjeta_img {
+    width: 300px;
+}
+
+.tarjeta h3, .tarjeta p {
+    width: 300px;
+}
+
+
+.info_excursion {
+    height: 600px;
+
+}
+
+.info_img {
+    height: 500px;
+}
+
+form {
+    width: 300px;
+    margin: 30px;
+}
+
+input {
+    width: 200px;
+    color: blue;
+}
+
+.titulo_excursion {
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #dddc;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
