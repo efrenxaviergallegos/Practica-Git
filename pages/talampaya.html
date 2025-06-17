@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ischigualasto - Ds Uno Viajes</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Ds Uno Viajes</title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Ds Uno Viajes</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="excursiones.html">Excursiones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-
-        <div>
-            <h2 class="titulo_excursion">Talampaya</h2>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">
+          <img src="../img/logo.png" alt="Ds Uno Viajes" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./excursiones.html">Excursiones</a></li>
+            <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./contacto.html">Contacto</a></li>
+          </ul>
         </div>
-        <div>
-            <div class="info_excursion">
-                <img class="info_img" src="/img/talampaya3.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam quasi praesentium facere. Nemo voluptas necessitatibus ea nisi autem at laboriosam, maxime distinctio voluptates, atque sed minima omnis fugiat repudiandae.</p>
-            </div>
+      </div>
+    </nav>
+  </header>
 
-        </div>
-    </main>
-
-    <footer>
+  <!-- Main -->
+  <main class="container my-5">
+    <h2 class="text-center mb-4">Talampaya</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="../img/talampaya3.avif" alt="Talampaya" class="img-excursion shadow" />
+      </div>
+      <div class="col-md-6">
         <p>
-            © 2025 Ds Uno Viajes. Todos los derechos reservados.
-            Sitio web desarrollado por Efren
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam quasi praesentium facere. Nemo voluptas
+          necessitatibus ea nisi autem at laboriosam, maxime distinctio voluptates, atque sed minima omnis fugiat
+          repudiandae.
         </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veniam architecto adipisci assumenda ex omnis
+          quam odio sapiente quod porro pariatur, nesciunt quia accusamus mollitia. Quae eligendi velit perspiciatis
+          similique?
+        </p>
+        <!-- Botón de reserva opcional -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    </footer>
+        <a href="https://wa.me/549XXXXXXXXX" target="_blank" class="btn-whatsapp mt-3">
+          Reservar por WhatsApp
+        </a>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </main>
 
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2025 Ds Uno Viajes. Todos los derechos reservados.</p>
+    <p class="mb-0">Sitio web desarrollado por Efren</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

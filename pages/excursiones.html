@@ -1,84 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Excursiones - Ds Uno Viajes</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>Ds Uno Viajes</title>
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Ds Uno Viajes</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./excursiones.html">Excursiones</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-
-    <main>
-
-        
-        <div>
-            <div>
-                <h2 class="titulo_excursion" >Excursiones</h2>
-            </div>
-            <div class="tarjeta">
-                <img class="tarjeta_img" src="/img/triasico.webp" alt="">
-                <h3><a class="tarjeta_link" href="triasico.html">Descubre El Asombroso Cañón Del Triásico</a></h3>
-                <p>A través de la Excursión en 4x4 al Cañón del Triásico tendrás la rara oportunidad de caminar entre cañones de 25 millones de años de edad en un paisaje desértico, que nos trae hacia eras remotas a una Tierra aún no habitada por el hombre. </p>
-            </div>
-
-            <div class="tarjeta"">
-                <img class="tarjeta_img" src="/img/talampaya.jpg" alt="">
-                <h3><a class="tarjeta_link" href="talampaya.html">Sericio de traslado Talampaya</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam quasi praesentium facere. Nemo voluptas necessitatibus ea nisi autem at laboriosam, maxime distinctio voluptates, atque sed minima omnis fugiat repudiandae.</p>
-            </div>
-
-            <div class="tarjeta"">
-                <img class="tarjeta_img" src="/img/ischigualasto.jpg" alt="">
-                <h3><a class="tarjeta_link" href="ischigualasto.html">Servicio de traslado y recorrido en ischigualasto</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam quasi praesentium facere. Nemo voluptas necessitatibus ea nisi autem at laboriosam, maxime distinctio voluptates, atque sed minima omnis fugiat repudiandae.</p>
-            </div>
-            <div class="tarjeta">
-                <img class="tarjeta_img" src="/img/golfito.JPG" alt="">
-                <h3><a class="tarjeta_link" href="laguna-brava.html">Laguna Brava en 4x4</a></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam quasi praesentium facere. Nemo voluptas necessitatibus ea nisi autem at laboriosam, maxime distinctio voluptates, atque sed minima omnis fugiat repudiandae.</p>
-            </div>
-
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="../index.html">
+          <img src="../img/logo.png" alt="Ds Uno Viajes" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./excursiones.html">Excursiones</a></li>
+            <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./contacto.html">Contacto</a></li>
+          </ul>
         </div>
-    </main>
+      </div>
+    </nav>
+  </header>
 
-    <footer>
-        <p>
-            © 2025 Ds Uno Viajes. Todos los derechos reservados.
-            Sitio web desarrollado por Efren
-        </p>
+  <!-- Main -->
+  <!-- Main -->
+  <main>
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Nuestras Excursiones</h2>
+      <div class="row justify-content-center g-4">
 
-    </footer>
+        <article class="col-md-6 col-lg-4">
+          <div class="card service-card h-100">
+            <img src="/img/triasico.avif" class="card-img-top" alt="Cañón del Triásico" />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="triasico.html" class="text-decoration-none text-dark">Cañón del Triásico</a>
+              </h3>
+              <p class="card-text">Explorá un paisaje desértico de más de 25 millones de años con nuestra excursión 4x4.
+              </p>
+            </div>
+          </div>
+        </article>
 
+        <article class="col-md-6 col-lg-4">
+          <div class="card service-card h-100">
+            <img src="/img/talampaya.avif" class="card-img-top" alt="Traslado a Talampaya" />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="talampaya.html" class="text-decoration-none text-dark">Traslado a Talampaya</a>
+              </h3>
+              <p class="card-text">Servicio cómodo y seguro hasta el Parque Nacional Talampaya.</p>
+            </div>
+          </div>
+        </article>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <article class="col-md-6 col-lg-4">
+          <div class="card service-card h-100">
+            <img src="/img/ischigualasto.avif" class="card-img-top" alt="Ischigualasto" />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="ischigualasto.html" class="text-decoration-none text-dark">Ischigualasto</a>
+              </h3>
+              <p class="card-text">Traslado y recorrido guiado por el Valle de la Luna, paisaje lunar único con fósiles
+                prehistóricos.</p>
+            </div>
+          </div>
+        </article>
 
+        <article class="col-md-6 col-lg-4">
+          <div class="card service-card h-100">
+            <img src="/img/golfito.avif" class="card-img-top" alt="Laguna Brava" />
+            <div class="card-body">
+              <h3 class="card-title">
+                <a href="laguna-brava.html" class="text-decoration-none text-dark">Laguna Brava 4x4</a>
+              </h3>
+              <p class="card-text">Aventura todo terreno hacia la Laguna Brava, con flamencos y vistas andinas
+                espectaculares.</p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-1">© 2025 Ds Uno Viajes. Todos los derechos reservados.</p>
+    <p class="mb-0">Sitio web desarrollado por Efren</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
